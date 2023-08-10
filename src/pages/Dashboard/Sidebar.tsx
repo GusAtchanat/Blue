@@ -16,7 +16,9 @@ const Sidebar: React.FC = () => {
       </Link>
       <div className="sidebar-item">Time In</div>
       <div className="sidebar-item">Leave Policy</div>
+      <Link to="/report">
       <div className="sidebar-item">Report</div>
+      </Link>
     </aside>
   );
 };
